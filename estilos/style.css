@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F263CC;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+#imagem{
+    background-image: url(../imagens/pexels-oandremoura-33042335.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 200px;
+    display: block;
+} 
+#login{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+#formulario{
+    display: block;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+#formulario p{
+    padding: 10px;
+    font-size: 1em;
+}
+form > input[type=submit]{
+    display:block;
+    width: 100%;
+    padding: 8px;
+    background-color: #F23078;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+form > input[type=submit]:hover{
+    background-color: #af2457;
+    transition: all .3s;
+}
+.campo{
+    background-color: #F263CC;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 40px;
+}
+.campo input{
+    margin: 5px;
+}
+.campo span{
+    margin-left: 10px;
+}
+label{
+    display: none;
+}
+a.botao{
+     display:block;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    border: 1px solid #F23078;
+}
+a.botao:hover{
+    background-color: #F23078;
+    color: white;
+    transition: all .3s;
+}
+.campo span{
+    
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+.campo input{
+    background-color: #c80049;
+    width: calc(100% - 50px);
+    height: 40px;
+    border: none;
+    font-size: 1em;
+    transform: translate(8px, -8px);
+   padding: 5px;
+    border-radius: 10px;
+    border: 3px solid #F263CC;
+}
+i{
+    display: inline-block;
+    transform: translateY(6px);
+    padding-left: 3px;
+}
